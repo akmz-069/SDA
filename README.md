@@ -1,2 +1,2 @@
 Software Design and Architecure .
-application of different design patterns
+1. Application of different design patterns
