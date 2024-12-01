@@ -4,10 +4,10 @@ from abc import ABC, abstractmethod
 class YoutubeChannel:
     def __init__(self, name):
         self.name = name
-        self.subscribers = []  # Fixed 'subscriber' to 'subscribers'
+        self.subscribers = []  
 
     def subscribe(self, sub):
-        self.subscribers.append(sub)  # Fixed 'appenf' to 'append'
+        self.subscribers.append(sub)  
 
     def notify(self, event):
         for sub in self.subscribers:
