@@ -27,7 +27,7 @@ class SMSAuthorizer:
         self.authorized = False
 
     def verify_code(self, code):
-        print(f"Verifying SMS code {code}")
+        print(f"Verifying  the SMS code {code}")
         self.authorized = True
 
     def is_authorized(self) -> bool:
