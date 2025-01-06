@@ -7,3 +7,13 @@ def process_data(data):
         else:
             print(f"Low value: {item['value']}")
 
+# Sample data to test the function
+sample_data = [
+    {'value': 5},
+    {'value': 15},
+    {'value': 8},
+    {'value': 20}
+]
+
+# Call the function with the sample data
+process_data(sample_data)
